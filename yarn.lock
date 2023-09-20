@@ -491,10 +491,10 @@
     multer "^1.4.5-lts.1"
     winston "^3.8.2"
 
-"@dolphjs/main@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@dolphjs/main/-/main-1.0.6.tgz#57e28da96b81e13f5901f2a0adabbae7e43c9512"
-  integrity sha512-HgeT1xeq6uUS9vOW1oFjp/bolMGiXRxl9pLPf/gse2q3XUmC7lNor3J9tvuElqVL9N3JFPeUebSh2B0kHXFO9Q==
+"@dolphjs/dolph@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@dolphjs/dolph/-/dolph-1.0.1.tgz#0f6d4b4ccde2672035670b1f1d3a59987113f6e0"
+  integrity sha512-bRZgeObrsiUi8KrR5ziKhHifsVQGCWTvEb/L9vImNWe1OsuhPW2Qjfzej8niSwf8EuykxmTdWSNEejohZnfFPg==
   dependencies:
     "@dolphjs/core" "^0.0.5-beta"
     argon2 "^0.30.3"

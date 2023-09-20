@@ -1,4 +1,4 @@
-const { DolphRouteHandler } = require("@dolphjs/main/classes");
+const { DolphRouteHandler } = require("@dolphjs/dolph/classes");
 const { AppController, popGreeting } = require("./app.controller");
 const { Router } = require("@dolphjs/core");
 

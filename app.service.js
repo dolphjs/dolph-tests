@@ -1,4 +1,4 @@
-const { DolphServiceHandler } = require("@dolphjs/main/classes");
+const { DolphServiceHandler } = require("@dolphjs/dolph/classes");
 const { userModel } = require("./app.model");
 
 //OOP approach

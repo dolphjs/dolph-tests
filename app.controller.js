@@ -1,6 +1,6 @@
-const { DolphControllerHandler } = require("@dolphjs/main/classes");
-const { TryCatchAsyncFn, SuccessResponse } = require("@dolphjs/main/common");
+const { SuccessResponse, TryCatchAsyncFn } = require("@dolphjs/dolph/common");
 const { AppService, greeting } = require("./app.service");
+const { DolphControllerHandler } = require("@dolphjs/dolph/classes");
 
 // OOP approach
 class AppController extends DolphControllerHandler {

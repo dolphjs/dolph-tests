@@ -1,4 +1,4 @@
-const { mongoose } = require("@dolphjs/main/packages");
+const { mongoose } = require("@dolphjs/dolph/packages");
 
 const userSchema = new mongoose.Schema({
   name: String,

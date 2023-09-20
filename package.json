@@ -7,6 +7,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@dolphjs/main": "^1.0.6"
+    "@dolphjs/dolph": "^1.0.1"
   }
 }
