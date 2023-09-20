@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start:js:functional:mongo": "node javascript/functional/mongo/app.server.js",
+    "start:js:oop:mongo": "node javascript/object-oriented/mongo/app.server.js",
+    "start:js:functional:mysql": "node javascript/functional/mysql/app.server.js",
+    "start:js:oop:mysql": "node javascript/object-oriented/mysql/app.server.js",
+    "serve:js:functional:mongo": "node --watch javascript/functional/mongo/app.server.js",
+    "serve:js:oop:mongo": "node --watch javascript/object-oriented/mongo/app.server.js",
+    "serve:js:functional:mysql": "node --watch javascript/functional/mysql/app.server.js",
+    "serve:js:oop:mysql": "node --watch javascript/object-oriented/mysql/app.server.js"
   },
   "license": "MIT",
   "dependencies": {
