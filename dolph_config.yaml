@@ -1,0 +1,17 @@
+database:
+  mongo:
+    url: mongodb://127.0.0.1:27017/dolphjs
+    options:
+middlewares:
+  cors:
+    activate: true
+    origin: ""
+    methods:
+      - GET
+      - POST
+      - PUT
+      - DELETE
+    allowedHeaders:
+routing:
+  base: "/v1"
+port: 3030
