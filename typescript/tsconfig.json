@@ -1,0 +1,18 @@
+{
+  "include": ["functional/**/*", "object-oriented/**/*"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "allowJs": false,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "sourceMap": false,
+    "useUnknownInCatchVariables": false,
+    "strictFunctionTypes": false,
+    "forceConsistentCasingInFileNames": true,
+    "target": "ES2022",
+    "baseUrl": ".",
+    "outDir": "app",
+    "pretty": true,
+    "module": "commonjs"
+  }
+}
