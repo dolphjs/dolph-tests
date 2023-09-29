@@ -10,10 +10,19 @@
     "serve:js:functional:mongo": "node --watch javascript/functional/mongo/app.server.js",
     "serve:js:oop:mongo": "node --watch javascript/object-oriented/mongo/app.server.js",
     "serve:js:functional:mysql": "node --watch javascript/functional/mysql/app.server.js",
-    "serve:js:oop:mysql": "node --watch javascript/object-oriented/mysql/app.server.js"
+    "serve:js:oop:mysql": "node --watch javascript/object-oriented/mysql/app.server.js",
+    "serve:ts:oop:mongo": "ts-node --transpile-only typescript/object-oriented/mongo/app.server.ts",
+    "serve:ts:oop:mysql": "ts-node --transpile-only typescript/object-oriented/mysql/app.server.ts"
   },
   "license": "MIT",
   "dependencies": {
-    "@dolphjs/dolph": "^1.0.1"
+    "@dolphjs/dolph": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.18",
+    "@types/node": "^20.6.4",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2"
   }
 }

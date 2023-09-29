@@ -1,0 +1,18 @@
+# EDIT TO YOUR NEEDS
+
+database:
+  mongo:
+    url: mongodb://127.0.0.1:27017/ts
+    options:
+middlewares:
+  cors:
+    activate: true
+    origin: "*"
+    methods:
+      - GET
+      - POST
+      - PUT
+      - DELETE
+    allowedHeaders:
+routing:
+port: 3030
